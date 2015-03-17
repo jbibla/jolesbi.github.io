@@ -1,0 +1,223 @@
+@import url(http://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:400,700);
+
+body {
+  font-size: 100%;
+}
+
+      body p {
+      	font-family: 'Vollkorn', serif;
+		font-weight: 400;
+        color: #DDDDDD;
+      }
+      
+      body a {
+      	font-family: 'Vollkorn', serif;
+      }
+
+nav {
+	background: rgba(255,255,255,.6);
+	border-left: 1px solid #DDD;
+	padding-left: 1em;
+}
+	
+	#sticker {
+		margin-top: 7em;
+		position: absolute;
+    }
+	
+	nav li { 
+		list-style-type: none;
+		padding: 1px;
+	}
+
+		nav ul li a {
+			
+			text-decoration: none;
+			font-size: 1rem;
+		}
+		
+		#navabout {
+			color: #82303a;
+		}
+		
+		#navportfolio {
+			color: #0ea58c;
+		}
+			
+			#navsub li a{
+				font-size: 0.8rem;
+			}
+		
+		#navblog {
+			color: #4e88b7;
+		}
+		
+		#navmisc {
+			color: #d67743;
+		}
+		
+		#navcontact {
+			color: #7146aa;
+		}
+	
+		#navforest {
+			color: #ede;
+		}	
+	
+#about {
+	margin-top: 4em;
+	padding: 0 3em 0 3em;
+	border-radius: 5px;
+}
+
+	#about img {
+		max-width: 30%;
+	}
+	
+	#about h1 a{
+		color: #82303a;
+		padding: 1em;
+	}
+
+section {
+	padding-top: 1em;
+	margin: 0 0 6em 0;
+}
+	section h1 {
+		color: #0ea58c;
+		text-align: center;
+		padding: 0.5em 0 0 0;
+		font-family: 'Abril Fatface', cursive;
+	}
+	
+	section h3 {
+		font-family: 'Vollkorn', serif;
+		color: #2e2e2e;
+	}
+	
+	section p {
+		margin-left: 0.5em;
+		color: #7d7d7d;
+	}
+	
+	section img {
+		margin-bottom: 1em;
+		border-radius: 5px;
+	}
+
+#portfolio {
+	margin: 6em 0 2em 0;
+	border-top: 1px solid #DDD;
+}
+
+	#portfolio p {
+		padding: 2em;
+	}
+
+	.projects {
+		padding-bottom: 2em;
+		border-bottom: 1px solid #ddd;
+	}
+
+		.sdsapp {
+			border-radius: 5px;		
+		}
+		
+		.credits {
+			font-size: 10pt;
+			text-align: center;
+	
+		}
+		
+		.credits1 {
+			font-size: 10pt;
+			text-align: center;
+		}
+		
+		.slick {
+			margin: 0 auto;
+		}
+
+			#coinculture {
+				color: #cd8351;
+			}
+
+			#gzd {
+				color: #000;
+			}
+			
+			#gayne {
+				color: #c98f67;	
+			}
+			
+			#ezdbt {
+				color: #acdd90;
+			}
+				
+				img.logo1 {
+					background: #acdd90;
+					max-width: 40%;
+					margin-top: 2em;
+				}
+
+			#deckspace {
+				color: #54668e;
+			}
+			
+			#misc {
+				color: #d67743;
+			}
+			
+				ul.misc {
+					padding-top: 2em;
+				}
+
+		.ccsite {
+			-webkit-box-shadow: 0px 2px 8px 1px rgba(50, 50, 50, 0.3);
+			-moz-box-shadow:    0px 2px 8px 1px rgba(50, 50, 50, 0.3);
+			box-shadow:         0px 2px 8px 1px rgba(50, 50, 50, 0.3);
+		}	
+
+#contact {
+	padding: 0 4em 0 4em;
+}
+
+	#contact h1 {
+		color: #82303a;
+		padding-bottom: 1em;
+	}
+	
+	#contact ul li svg {
+		width: 4em;
+		border-radius: 0;
+	}
+
+		svg:hover .social { 
+			fill: #000;
+		}
+	
+#footer p{
+	color: #ccc;
+	font-size: 10pt;
+}
+
+.slicknav_menu {
+	display: none;
+}
+
+@media only screen and (max-width: 40em) { 
+	
+	.js #sticker {
+		display: none;
+	}
+	
+	.js .slicknav_menu {
+		display: block;
+	}
+	
+	.sticky-wrapper {
+		display: none;
+	}
+	
+}
