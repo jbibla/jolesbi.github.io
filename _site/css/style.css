@@ -439,14 +439,16 @@ h1 a:hover {
       display: inline-block;
       padding: 6px 12px 6px 0; }
 
-.m-footer .links {
-  list-style: none;
-  margin: 0 0 2rem;
-  padding-left: 0;
-  display: inline-block; }
-  .m-footer .links li {
-    display: inline;
-    padding-right: 10px; }
+.m-footer {
+  text-align: center; }
+  .m-footer .links {
+    list-style: none;
+    margin: 0 0 2rem;
+    padding-left: 0;
+    display: inline-block; }
+    .m-footer .links li {
+      display: inline;
+      padding: 0 5px; }
 
 .listing-container {
   margin: 0 auto;
