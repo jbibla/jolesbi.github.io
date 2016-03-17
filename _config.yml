@@ -1,0 +1,20 @@
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Jordan Bibla
+tagline:          Design&nbsp;and&nbsp;Development
+url:              http://jordanbibla.com
+paginate:         50
+baseurl:          /
+iconurl:          /icons/
+author:
+  name:           Jordan Bibla
+  url:            https://twitter.com/jbibla
+  email:          jbibla@gmail.com
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/jolesbi/jolesbi.github.io

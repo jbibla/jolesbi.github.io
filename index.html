@@ -1,35 +1,26 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>Jordan Bibla</title>
-	<meta name="robots" content="index, follow" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="description" content="Portfolio site of Jordan Bibla user experience designer and front-end developer in Toronto, Ontario, Canada" />
-	<meta name="keywords" content="Jordan Bibla ux design development canada" />
-	<meta name="author" content="Jordan Bibla" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta http-equiv="cache-control" content="public, max-age=86400" />
-	<link async rel="stylesheet" href="css/style.css" media="screen" />
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+---
+layout: default
+title: Home
+---
 
-		ga('create', 'UA-48302191-1', 'jordanbibla.com');
-		ga('send', 'pageview');
-	</script>
-</head>
-<body>
-	<h2 class="small-text-center">I'm working on&nbsp;it...</h2>
-	<img src="img/landing.gif">
-	<ul>
-		<li><a href="https://angel.co/jbibla">Angel</a></li>
-		<li><a href="https://dribbble.com/jordanbibla">Dribbble</a></li>
-		<li><a href="mailto:jbibla@gmail.com?Subject=Hey%20Jordan,%20cool%20website!">Email</a></li>
-		<li><a href="https://www.linkedin.com/in/jbibla">LinkedIn</a></li>
-	</ul>
-</body>
-</html>
+<p class="bio-summary">
+  Hello and welcome!<br><br>
+  I'm Jordan Bibla —— front end developer, ux&nbsp;designer, and product manager at
+  <a href="http://thinkdataworks.com" class="little-link" target="_blank">ThinkData&nbsp;Works</a>.
+  Below you'll find links to some of my work.<br><br>
+  Thank you kindly.
+</p>
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <a href="{{ post.outside_link }}" target="_blank">
+    <article class="post">
+      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: '%b %Y' }}</time>
+      <h2 class="post-title">{{ post.title }}</h2>
+      <p class="post-description">{{ post.description }}</p>
+      <span class="tag-title">{{ post.tag }}</span>
+      <span class="post-tags">{{ post.tags | join: ', ' }} <span class="post-source">—— {{ post.source }}</span></span>
+    </article>
+  </a>
+  {% endfor %}
+</div>
