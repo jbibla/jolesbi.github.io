@@ -3,17 +3,20 @@ permalink:        pretty
 
 # Setup
 title:            Jordan Bibla
-tagline:          Design&nbsp;and&nbsp;Development
+tagline:          Product Manager, Frontend Developer, Designer
 url:              http://jordanbibla.com
 paginate:         50
 baseurl:          /
 iconurl:          /icons/
 author:
   name:           Jordan Bibla
-  url:            https://twitter.com/jbibla
+  url:            jordanbibla.com
   email:          jbibla@gmail.com
 
 # Custom vars
 version:          1.0.0
 github:
   repo:           https://github.com/jolesbi/jolesbi.github.io
+
+# Gems
+gems:             [jekyll-paginate]
