@@ -1,0 +1,24 @@
+---
+layout: default
+title: Projects
+---
+
+<h2>Projects</h2>
+
+<div class="posts">
+
+  {% for post in paginator.posts %}
+
+  <a class="post">
+    <h4 class="post-title">
+      <a href="{{ post.url }}" class="post">
+        {{ post.title }}
+      </a>
+    </h4>
+
+    <!-- <p class="post-description">{{ post.description }}</p> -->
+  </article>
+
+  {% endfor %}
+
+</div>

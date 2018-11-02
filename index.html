@@ -2,25 +2,9 @@
 layout: default
 title: Home
 ---
-
-<p class="bio-summary">
-  Hello and welcome!<br><br>
-  I'm Jordan Bibla —— product manager, frontend developer, and&nbsp;designer at
-  <a href="http://thinkdataworks.com" class="little-link" target="_blank">ThinkData&nbsp;Works</a>.
-  Below you'll find links to some of my writing and my work.<br><br>
-  Thank you kindly.
-</p>
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <a href="{{ post.outside_link }}" target="_blank">
-    <article class="post">
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: '%b %Y' }}</time>
-      <h2 class="post-title">{{ post.title }}</h2>
-      <p class="post-description">{{ post.description }}</p>
-      <span class="tag-title">{{ post.tag }}</span>
-      <span class="post-tags">{{ post.tags | join: ', ' }} <span class="post-source">——&nbsp;{{ post.source }}</span></span>
-    </article>
-  </a>
-  {% endfor %}
-</div>
+<span class="wave-palm">✌️</span>
+<h2>Jordan Bibla is a product designer interested in blockchains, bagels, and the future of&nbsp;work.</h2>
+<img src="../images/jordan.jpg" alt="Jordan lying on a blanket in the grass">
+<p>Currently, he's <i>doing design</i> for <a href="https://github.com/cosmos/voyager/releases" target="_blank">Voyager</a>, the UI for the <a href="https://cosmos.network/" target="_blank">Cosmos&nbsp;Hub</a>.</p>
+<p>Prior to that he helped design and build <a href="https://namara.io/" target="_blank">Namara.io</a>.</p>
+<p>You can get in touch with a <a href="https://twitter.com/jbibla" target="_blank">tweet</a>. Thank you kindly.</p>
