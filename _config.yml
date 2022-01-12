@@ -3,15 +3,14 @@ permalink:        pretty
 
 # Setup
 title:            Jordan Bibla
-tagline:          Product Design
-url:              http://jordanbibla.com
+tagline:          Product Leader
+url:              https://jbib.la
 paginate:         50
 baseurl:          /
 iconurl:          /icons/
 author:
   name:           Jordan Bibla
-  url:            jordanbibla.com
-  email:          jbibla@gmail.com
+  url:            https://jbib.la
 
 # Custom vars
 version:          1.0.0
